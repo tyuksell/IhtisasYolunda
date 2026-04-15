@@ -1136,12 +1136,14 @@ body {
     grid-column: 1;
     grid-row: auto;
     min-height: auto;
+    order: 4;
   }
 
   .bento-card--reference {
     grid-column: 1;
     grid-row: auto;
     min-height: auto;
+    order: 5;
   }
 
   #card-stage1,
@@ -1150,6 +1152,10 @@ body {
     grid-column: 1;
     grid-row: auto;
   }
+
+  #card-stage1 { order: 1; }
+  #card-stage2 { order: 2; }
+  #card-stage3 { order: 3; }
 
   #card-stage3 .card-content {
     flex-direction: column;
